@@ -1,0 +1,36 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(assets/keb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  align-items: center;
+}
+
+.cv{
+  border: 5px solid black;
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.underheader{
+  color: rgb(10, 214, 10);
+}
+
+.blue-header{
+  color: rgb(0, 102, 255);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid black;
+  margin: 5px 0;
+}
